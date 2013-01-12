@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+	<title>The Nabi Grid System</title>
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<style>
+html {
+	font-family: 'helvetica neue', sans-serif;
+}
+.container {
+	max-width: 72em;
+	margin: 0 auto;
+}
+.col {
+	float: left;
+	margin: 0 0.5em;
+	padding: 0 1em;
+	background-color: #EEE;
+}
+.w30 {
+	max-width: 30em;
+}
+.w10 {
+	width: 10em;
+}
+	</style>
+
+</head>
+<body>
+
+
+<div class="container">
+	<div class="col w30">
+		<h1>The Nabi grid system</h1>
+
+		<p>This grid system is an attempt at an adaptive grid without using any media queries. This box, the main content, is 30em wide. The three sidebars are each 10em wide. Everything is floated to the left.</p>
+
+		<p>When the screen size changes, or when the text size is increased by the user, the columns collapse in on one another. the third column will slide under the second one, then they will both slide under the first sidebar. Eventually, this one long sidebar will get shunted underneath the main content area. When the viewport gets smaller than 30em, this main contect box will shrink accordingly.</p>
+
+		<p>It was a neat little proof-of-concept, but it's nowhere near a viable alternative to media queries. <strong>Each column must be longer than the one to its right for this to work</strong>, which limits the kinds of designs that you can do.</p>
+
+		<h2>Filler text</h2>
+
+		<p>The ship tore on; leaving such a furrow in the sea as when a cannon-ball, missent, becomes a plough-share and turns up the level field.</p>
+
+		<p>"By salt and hemp!" cried Stubb, "but this swift motion of the deck creeps up one's legs and tingles at the heart. This ship and I are two brave fellows!&mdash;Ha, ha! Some one take me up, and launch me, spine-wise, on the sea,&mdash;for by live-oaks! my spine's a keel. Ha, ha! we go the gait that leaves no dust behind!"</p>
+
+		<p>"There she blows&mdash;she blows!&mdash;she blows!&mdash;right ahead!" was now the mast-head cry.</p>
+
+		<p>"Aye, aye!" cried Stubb, "I knew it&mdash;ye can't escape&mdash;blow on and split your spout, O whale! the mad fiend himself is after ye! blow your trump&mdash;blister your lungs!&mdash;Ahab will dam off your blood, as a miller shuts his watergate upon the stream!"</p>
+
+		<p>The ship tore on; leaving such a furrow in the sea as when a cannon-ball, missent, becomes a plough-share and turns up the level field.</p>
+
+		<p>"By salt and hemp!" cried Stubb, "but this swift motion of the deck creeps up one's legs and tingles at the heart. This ship and I are two brave fellows!&mdash;Ha, ha! Some one take me up, and launch me, spine-wise, on the sea,&mdash;for by live-oaks! my spine's a keel. Ha, ha! we go the gait that leaves no dust behind!"</p>
+
+		<p>"There she blows&mdash;she blows!&mdash;she blows!&mdash;right ahead!" was now the mast-head cry.</p>
+
+		<p>"Aye, aye!" cried Stubb, "I knew it&mdash;ye can't escape&mdash;blow on and split your spout, O whale! the mad fiend himself is after ye! blow your trump&mdash;blister your lungs!&mdash;Ahab will dam off your blood, as a miller shuts his watergate upon the stream!"</p>
+
+	</div>
+
+	<div class="col w10">
+		<h2>One sidebar</h2>
+		<p>I pondered over this report for some time, finally asking, "What might a sorak be, Sola?"</p>
+		<p>"A little animal about as big as my hand, which the red Martian women keep to play with," explained Sola.</p>
+		<p>Not fit to polish the teeth of her grandmother's cat!  I must rank pretty low in the consideration of Dejah Thoris, I thought; but I could not help laughing at the strange figure of speech, so homely and in this respect so earthly.</p>
+	</div>
+
+	<div class="col w10">
+		<h2>Another sidebar</h2>
+		<p>"Or give me a heart," said the Tin Woodman.</p>
+		<p>"Or send me back to Kansas," said Dorothy.</p>
+		<p>"Then, if you don't mind, I'll go with you," said the Lion, "for my life is simply unbearable without a bit of courage."</p>
+	</div>
+
+	<div class="col w10">
+		<h2>The third sidebar</h2>
+		<p>There, among some young pine trees and furze bushes, I stopped, panting, and waited further developments.</p>
+	</div>
+
+</div><!-- .container -->
+
+</body>
+</html>
